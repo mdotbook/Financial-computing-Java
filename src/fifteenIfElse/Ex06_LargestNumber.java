@@ -1,0 +1,19 @@
+package fifteenIfElse;
+
+public class Ex06_LargestNumber
+{
+    public static void main(String[] args) {
+        int x = 10, y = 20, z = 15;
+
+        if (x >= y && x >= z) {
+            System.out.println("x is largest");
+        } else if (y >= x && y >=z) {
+            System.out.println("y is largest");
+        }
+        else {
+            System.out.println("z is largest");
+
+        }
+    }
+
+}
